@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#f8f4ea">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Little Wheels">
+  <meta name="description" content="给小朋友的真实交通工具照片、声音与英语单词。离线可用。">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Little Wheels · 交通工具英语启蒙</title>
+</head>
+<body>
+  <div class="shell">
+    <header class="header">
+      <a class="brand" href="./index.html" aria-label="返回首页">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span></div>
+        <div><div class="brand-name">little wheels<span class="brand-dot">.</span></div><div class="brand-sub">看真实世界，听英语声音</div></div>
+      </a>
+      <nav class="mode-switch" aria-label="学习模式">
+        <button class="mode-button is-selected" id="exploreMode" type="button" aria-pressed="true"><span class="mode-icon" aria-hidden="true">◉</span><span>自由探索</span></button>
+        <button class="mode-button" id="gameMode" type="button" aria-pressed="false"><span class="mode-icon" aria-hidden="true">✦</span><span>听音寻物</span></button>
+      </nav>
+    </header>
+
+    <main id="main" class="main">
+      <section class="intro" aria-live="polite">
+        <div class="eyebrow"><span class="eyebrow-line"></span>交通工具 · VEHICLES</div>
+        <div class="intro-row">
+          <div>
+            <h1 id="sectionTitle">探索会动的世界<span class="title-spark">✳</span></h1>
+            <p id="sectionHint">点一张真实照片，先听它的声音，再听英文名字。</p>
+          </div>
+          <div class="count-pill" id="countPill"><strong>10</strong><span>种交通工具</span></div>
+        </div>
+      </section>
+
+      <section class="play-area" aria-label="交通工具卡片">
+        <div class="game-prompt" id="gamePrompt" hidden>
+          <button id="repeatQuestion" class="repeat-button" type="button" aria-label="再听一遍问题">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3Zm12.2-1.4a6 6 0 0 1 0 8.8M18 5a9.5 9.5 0 0 1 0 14"/></svg>
+          </button>
+          <div><div class="prompt-overline">LISTEN & FIND</div><div class="prompt-text" id="promptText">Where is the car?</div></div>
+          <div class="question-counter" id="questionCounter">01 / 10</div>
+        </div>
+        <div class="cards" id="cards"></div>
+      </section>
+      <p class="feedback" id="feedback" aria-live="polite"></p>
+    </main>
+
+    <footer class="footer"><span><span class="footer-heart">♥</span> 为小小探索家准备</span><span class="footer-actions"><a class="lesson-link" href="./food-lesson.html">Treehouse · Food Lesson</a><button class="credits-button" id="creditsButton" type="button">照片与声音来源</button></span></footer>
+  </div>
+
+  <div class="start-screen" id="startScreen" role="dialog" aria-modal="true" aria-labelledby="startTitle">
+    <div class="start-card">
+      <div class="start-badge">LITTLE WHEELS <span>✦</span> 交通工具篇</div>
+      <div class="start-photo"><img src="./assets/images/bus.webp" alt="真实公交车照片"><span class="photo-label">REAL PHOTOS · REAL SOUNDS</span></div>
+      <h2 id="startTitle">出发，认识<br><em>会动的世界。</em></h2>
+      <p>看真实照片，听交通工具的声音，<br>再一起说出它的英文名字。</p>
+      <button id="startButton" class="start-button" type="button">开始探索 <span aria-hidden="true">↗</span></button>
+      <div class="start-note">建议打开声音 · 轻点卡片即可播放</div>
+    </div>
+  </div>
+
+  <dialog class="credits-dialog" id="creditsDialog">
+    <div class="dialog-head"><div><div class="prompt-overline">CREDITS</div><h2>素材来源</h2></div><button id="closeCredits" type="button" aria-label="关闭">×</button></div>
+    <p>真实照片与现场录音来自 Wikimedia Commons。图片经过裁切与 WebP 压缩，录音经过截取与 MP3 转换；各素材沿用原许可证。单词和题目语音由 Microsoft Edge TTS 生成。</p>
+    <div id="creditsList" class="credits-list"></div>
+  </dialog>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+services:
+  little-wheels:
+    build: .
+    image: treehouse-english:latest
+    container_name: little-wheels
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx:rw,noexec,nosuid,size=8m
+      - /var/run:rw,noexec,nosuid,size=1m
+      - /tmp:rw,noexec,nosuid,size=1m
+    ports:
+      - "${TREEHOUSE_PORT:-8088}:80"
+    mem_limit: 128m
+    cpus: "0.25"
+    pids_limit: 64
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 2m
+        max-file: "2"

@@ -1,0 +1,17 @@
+{
+  "name": "Treehouse English · 幼儿英语学习屋",
+  "short_name": "Treehouse English",
+  "description": "认识交通工具、食物和常见水果，听一听、看一看、说出来。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8f4ea",
+  "theme_color": "#f8f4ea",
+  "icons": [
+    { "src": "/assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

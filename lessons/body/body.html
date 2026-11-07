@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#eef5eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Little Body">
+  <meta name="description" content="听英语指令，认识身体部位，和孩子一起做动作。">
+  <link rel="manifest" href="../../manifest.json">
+  <link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="./body.css">
+  <title>Little Body · 身体与动作</title>
+</head>
+<body class="body-page">
+  <div class="body-shell">
+    <header class="body-header">
+      <a class="body-brand" href="../../index.html" aria-label="返回 Treehouse 首页">
+        <span class="body-mark" aria-hidden="true">✦</span>
+        <span><strong>little body<span>.</span></strong><small>身体 · BODY &amp; ACTIONS</small></span>
+      </a>
+      <nav class="body-modes" aria-label="学习模式">
+        <button class="body-mode is-selected" id="exploreMode" type="button" aria-pressed="true"><span>◉</span> 看一看</button>
+        <button class="body-mode" id="findMode" type="button" aria-pressed="false"><span>✦</span> 找一找</button>
+        <button class="body-mode" id="doMode" type="button" aria-pressed="false"><span>→</span> 做一做</button>
+      </nav>
+    </header>
+
+    <main class="body-main">
+      <section class="body-intro" aria-live="polite">
+        <div class="body-eyebrow"><i></i>身体 · BODY</div>
+        <div class="body-intro-row">
+          <div>
+            <h1 id="sectionTitle">认识我的身体<span>✳</span></h1>
+            <p id="sectionHint">点一张卡片，先看一看，再听英语怎么说。</p>
+          </div>
+          <div class="body-count" id="countPill"><b>8</b><span>个身体部位</span></div>
+        </div>
+      </section>
+
+      <section class="body-stage" aria-label="身体学习区">
+        <div class="body-prompt" id="gamePrompt" hidden>
+          <button class="body-repeat" id="repeatQuestion" type="button" aria-label="再听一遍问题">⌁</button>
+          <div><small id="promptOverline">LISTEN &amp; FIND</small><strong id="promptText">Where is the nose?</strong></div>
+          <span class="body-counter" id="questionCounter">01 / ∞</span>
+        </div>
+
+        <div class="do-panel" id="doPanel" hidden>
+          <div class="do-character"><img src="./assets/images/body-character.webp" alt="真实人物照片"></div>
+          <div class="do-copy">
+            <small>LISTEN &amp; DO</small>
+            <h2 id="doText">Touch your nose.</h2>
+            <p>听一听，和身边的大人一起做出来。</p>
+            <div class="do-actions"><button id="doListen" type="button" class="secondary-button">再听一遍</button><button id="didIt" type="button" class="primary-button">我们做到了 <span>★</span></button></div>
+            <div class="do-progress" id="doProgress" aria-label="动作进度"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+
+        <div class="body-cards" id="cards"></div>
+      </section>
+      <p class="body-feedback" id="feedback" aria-live="polite"></p>
+    </main>
+
+    <section class="parent-tip"><span class="tip-bubble">♥</span><div><b>亲子小动作</b><p id="parentTipText">洗手时说：<strong>Show me your hands.</strong></p></div><span class="tip-spark">✦</span></section>
+
+    <footer class="body-footer"><span>Treehouse English Club · for little learners</span><span><a href="../../index.html">返回课程首页</a> · <button id="creditsButton" type="button">真实照片来源</button></span></footer>
+  </div>
+
+  <dialog class="credits-dialog" id="creditsDialog">
+    <div class="dialog-head"><div><small>REAL PHOTO CREDITS</small><h2>真实照片来源</h2></div><button id="closeCredits" type="button" aria-label="关闭">×</button></div>
+    <p>本单元只使用 Wikimedia Commons 的真实照片，未使用漫画、SVG 插画、emoji 或 AI 生图。图片经过裁切、缩放和 WebP 压缩；完整来源和许可如下。</p>
+    <div id="creditsList" class="credits-list"></div>
+  </dialog>
+
+  <div class="body-start" id="startScreen" role="dialog" aria-modal="true" aria-labelledby="startTitle">
+    <div class="body-start-card">
+      <div class="body-start-badge">LITTLE BODY <span>✦</span> 身体篇</div>
+      <div class="body-start-art"><img src="./assets/images/body-character.webp" alt="真实人物照片"><span>REAL PHOTO · REAL WORDS</span></div>
+      <h2 id="startTitle">认识身体，<br><em>跟着英语动起来。</em></h2>
+      <p>先听一个词，再做一个动作。<br>和孩子一起摸一摸、指一指、说出来。</p>
+      <button id="startButton" class="start-button" type="button">开始探索 <span>↗</span></button>
+      <small>建议打开声音 · 每次练 3 个词</small>
+    </div>
+  </div>
+
+  <script src="./body.js" defer></script>
+</body>
+</html>

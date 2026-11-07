@@ -1,0 +1,25 @@
+.fruit-page{background:linear-gradient(180deg,#fff8ee 0%,#f8f4ea 35%)}
+.fruit-page .brand-mark{background:#e86f5b;box-shadow:0 7px 0 #c84d42}
+.fruit-page .brand-mark span{background:#ffe08b;box-shadow:0 11px 0 #ffe08b}
+.fruit-page .brand-dot{color:#e86f5b}
+.fruit-page .eyebrow{color:#d46b4e}
+.fruit-page .eyebrow-line{background:#e7a365}
+.fruit-page .title-spark{color:#eaa456}
+.fruit-page .count-pill strong{color:#d15f49}
+.fruit-page .card{border-color:#f0dfd1;background:#fffdf8}
+.fruit-page .card:hover{border-color:#efb28f;box-shadow:0 14px 28px #b96f431b}
+.fruit-page .card-image{background:#fff0d8}
+.fruit-page .card.is-active{border-color:#eaa25c;box-shadow:0 12px 30px #d88a3850}
+.fruit-page .card.is-correct{border-color:#72b58d;box-shadow:0 0 0 4px #c8e7cf,0 12px 26px #627f5a30}
+.fruit-page .card-sound{background:#fff0df;color:#d16a4c}
+.fruit-page .game-prompt{background:#d5634f}
+.fruit-page .prompt-overline{color:#ffe09e}
+.fruit-page .feedback{color:#ca654a}
+.fruit-page .start-screen{background:#7d3f35dd}
+.fruit-page .start-card{background:#fffaf1}
+.fruit-page .start-badge{color:#d46b4e}
+.fruit-page .start-card h2 em{color:#d56b4e}
+.fruit-page .start-button{background:#d5634f;box-shadow:0 10px 20px #b8513d43}
+.fruit-page .start-button span{color:#ffe09e}
+.fruit-page .lesson-link{color:#9b5b44;background:#fff0e3}
+@media(max-width:700px){.fruit-page .card-word{font-size:clamp(17px,4.5vw,25px)}}

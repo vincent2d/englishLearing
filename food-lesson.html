@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Treehouse Food Lesson">
+  <title>Treehouse · Unit 2 · Food</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./food-lesson.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="返回 Little Wheels"><span class="brand-mark">TH</span><span><strong>treehouse</strong><small>English club · 幼儿英语</small></span></a>
+      <div class="unit-pill"><span>🀄️</span> 班级部 · <b>UNIT 2</b></div>
+      <div class="progress"><span>本月进度</span><b>01</b><i>/</i><span>04</span><div class="progress-bar"><em></em></div></div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="lesson-kicker"><span>LESSON 1</span><i></i><span>FOOD</span></div>
+          <h1>Haunted<br><em>House</em> <span class="house-emoji">🏠</span></h1>
+          <p>走进小屋，认识五种食物，<br>用英语说出你喜欢的味道。</p>
+          <button class="hero-play" id="heroPlay" type="button"><span class="play-circle">▶</span> 听一听今天的句子</button>
+        </div>
+        <div class="hero-house" aria-hidden="true">
+          <div class="moon"></div><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div>
+          <div class="house-roof"></div><div class="house-body"><div class="window window-a">✦</div><div class="window window-b">✦</div><div class="door"><span>?</span></div></div>
+          <div class="ghost ghost-a">•ᴗ•</div><div class="ghost ghost-b">•ᴗ•</div><div class="ground"></div>
+        </div>
+        <div class="hero-sticker">SAY IT<br><b>OUT LOUD!</b></div>
+      </section>
+
+      <section class="goal-strip" aria-label="本课目标"><span class="goal-icon">✦</span><div><b>本课小目标</b><span>认识 5 个食物单词 · 学会问答喜好</span></div><span class="goal-check">✓</span></section>
+
+      <section class="words-section">
+        <div class="section-heading"><div><span class="eyebrow">LOOK · LISTEN · SAY</span><h2>食物小词典 <span>🍽️</span></h2></div><span class="hint">点卡片听发音</span></div>
+        <div class="food-grid" id="foodGrid"></div>
+      </section>
+
+      <section class="practice-section" id="practice">
+        <div class="practice-top"><div><span class="eyebrow light">SPEAKING TIME</span><h2>你喜欢什么食物？</h2></div><button class="small-audio" id="questionPlay" type="button"><span>🔊</span> 再听一遍</button></div>
+        <div class="conversation"><div class="speech speech-question"><span class="avatar">👩🏻‍🏫</span><div><small>TEACHER</small><b>What food do you like?</b></div></div><div class="arrow">↘</div><div class="speech speech-answer"><span class="avatar child">🧒🏻</span><div><small>YOU</small><b id="answerText">I like <u>...</u>.</b></div></div></div>
+        <p class="choose-label">选一张你喜欢的食物卡，说：<strong>I like ...</strong></p><div class="choice-row" id="choiceRow"></div>
+      </section>
+
+      <section class="game-section">
+        <div class="game-heading"><div><span class="eyebrow">MINI GAME</span><h2>小小点心侦探 <span>🔎</span></h2><p>听一听，找出老师说的食物。</p></div><div class="score" id="score"><b>0</b><span>颗星</span></div></div>
+        <div class="game-card" id="gameCard"><div class="game-question"><span class="game-label">LISTEN & FIND</span><strong id="gamePrompt">准备好了吗？</strong><button id="gameListen" type="button" aria-label="播放游戏提示">🔊</button></div><div class="game-options" id="gameOptions"></div><button class="start-game" id="startGame" type="button">开始找食物 <span>→</span></button><div class="game-feedback" id="gameFeedback" aria-live="polite"></div></div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>Treehouse Unit 2 · Haunted House</span><span>和孩子一起说：<b>What food do you like?</b></span></footer>
+  </div>
+
+  <div class="welcome" id="welcome" role="dialog" aria-modal="true"><div class="welcome-card"><span class="welcome-icon">🍰</span><span class="eyebrow">WELCOME TO THE TREEHOUSE</span><h2>今天想吃什么？</h2><p>点一下开始，先听老师的问题，<br>再用英语说出你喜欢的食物。</p><button id="startLesson" type="button">开始 Lesson 1 <span>↗</span></button><small>建议打开声音 · 轻点卡片即可发音</small></div></div>
+  <script src="./food-lesson.js" defer></script>
+</body>
+</html>

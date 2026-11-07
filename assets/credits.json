@@ -1,0 +1,218 @@
+{
+  "note": "Wikimedia Commons photographs and recordings; see each source page for full attribution and license terms. All transformed assets are distributed under their source license.",
+  "voice": {
+    "service": "Microsoft Edge TTS via edge-tts",
+    "voice": "en-US-AnaNeural",
+    "rate": "-15%",
+    "phrases": "10 words, 10 game questions, and Try again"
+  },
+  "items": [
+    {
+      "output": "assets/images/car.webp",
+      "source_title": "Toyota Corolla E210 sedan Sanming 01 2022-07-27.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_E210_sedan_Sanming_01_2022-07-27.jpg",
+      "author": "JamesYoung8167",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/bus.webp",
+      "source_title": "Culver City Bus 7118 R6 LAX City Bus Center.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Culver_City_Bus_7118_R6_LAX_City_Bus_Center.jpg",
+      "author": "Jonathan Riley",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/train.webp",
+      "source_title": "Indian Pacific passenger train 2025.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Indian_Pacific_passenger_train_2025.jpg",
+      "author": "Tomoyn",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/airplane.webp",
+      "source_title": "Pegasus Airlines Boeing 737-800, Munich, April 2019.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pegasus_Airlines_Boeing_737-800%2C_Munich%2C_April_2019.jpg",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/ship.webp",
+      "source_title": "Cruise ship in the Port of Nagasaki, 20240814 0829 3199.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cruise_ship_in_the_Port_of_Nagasaki%2C_20240814_0829_3199.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/bicycle.webp",
+      "source_title": "Bike against brick wall (Unsplash).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bike_against_brick_wall_%28Unsplash%29.jpg",
+      "author": "Darius Soodmand dsoodmand",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/fire-truck.webp",
+      "source_title": "Alamogordo ladder truck fire engine.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Alamogordo_ladder_truck_fire_engine.jpg",
+      "author": "AllenS",
+      "license": "Public domain",
+      "license_url": "",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/police-car.webp",
+      "source_title": "Willimantic police car side view.gk.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Willimantic_police_car_side_view.gk.jpg",
+      "author": "Grendelkhan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/ambulance.webp",
+      "source_title": "Fiat Ambulance in Rome.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fiat_Ambulance_in_Rome.JPG",
+      "author": "Alf van Beem",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/images/helicopter.webp",
+      "source_title": "N500SY MD500 Helicopter (27035289135).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:N500SY_MD500_Helicopter_%2827035289135%29.jpg",
+      "author": "James from Cheltenham, Gloucestershire",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "modification": "Center cropped to 4:3, resized to 1200x900 and converted to WebP"
+    },
+    {
+      "output": "assets/audio/car-fx.mp3",
+      "source_title": "Car Horn.wav",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Car_Horn.wav",
+      "author": "15HPanska_Ruttner_Jan",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/bus-fx.mp3",
+      "source_title": "WWS CityBusMANSG220dooropeningclosing.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:WWS_CityBusMANSG220dooropeningclosing.ogg",
+      "author": "Work With Sounds / Technical Museum of Slovenia",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/train-fx.mp3",
+      "source_title": "2010 UP844 Whistle.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2010_UP844_Whistle.ogg",
+      "author": "Rvassar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/airplane-fx.mp3",
+      "source_title": "Jet airliner overhead.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jet_airliner_overhead.ogg",
+      "author": "Jud McCranie",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/ship-fx.mp3",
+      "source_title": "Cruise ship Albatros ship horn.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cruise_ship_Albatros_ship_horn.ogg",
+      "author": "Tvabutzku1234",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/bicycle-fx.mp3",
+      "source_title": "Bicycle-bell-1.wav",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bicycle-bell-1.wav",
+      "author": "Soundscape_Leuphana",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/fire-truck-fx.mp3",
+      "source_title": "WWS Fireenginesiren.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:WWS_Fireenginesiren.ogg",
+      "author": "Work With Sounds / Konrad Gutkowski",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/police-car-fx.mp3",
+      "source_title": "American police siren i.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:American_police_siren_i.ogg",
+      "author": "lezer",
+      "license": "Public domain",
+      "license_url": "",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/ambulance-fx.mp3",
+      "source_title": "AmbulanceSound1.wav",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AmbulanceSound1.wav",
+      "author": "Demircimehmed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/helicopter-fx.mp3",
+      "source_title": "Helicopter over a lake.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Helicopter_over_a_lake.ogg",
+      "author": "ezwa",
+      "license": "Public domain",
+      "license_url": "",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/applause-fx.mp3",
+      "source_title": "Clapping hurray (cropped).oga",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Clapping_hurray_%28cropped%29.oga",
+      "author": "Starlite",
+      "license": "Public domain",
+      "license_url": "",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/star-fx.mp3",
+      "source_title": "Airplane Chime Sound Effect.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Airplane_Chime_Sound_Effect.ogg",
+      "author": "Sharelk",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    },
+    {
+      "output": "assets/audio/wrong-fx.mp3",
+      "source_title": "Error Sound 1 (Gravity Sound).wav",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Error_Sound_1_%28Gravity_Sound%29.wav",
+      "author": "Gravity Sound",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "modification": "Trimmed from 0.0s, limited to 1.5s (1.0s for feedback), fade out, converted to mono MP3"
+    }
+  ]
+}

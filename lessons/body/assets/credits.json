@@ -1,0 +1,96 @@
+{
+  "note": "All Little Body image assets are real photographs downloaded from Wikimedia Commons. No illustrations, emoji or AI-generated images are used.",
+  "asset_policy": "real_photographs_only",
+  "items": [
+    {
+      "output": "lessons/body/assets/images/body-character.webp",
+      "source_title": "Smiling Lao woman with short hair and red shirt.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Smiling_Lao_woman_with_short_hair_and_red_shirt.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Real portrait photograph used as the lesson's consistent person reference. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/head.webp",
+      "source_title": "Smiling Lao woman with short hair and red shirt.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Smiling_Lao_woman_with_short_hair_and_red_shirt.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Portrait crop from the same real photograph used for the head card. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/eyes.webp",
+      "source_title": "Human eye close up, anterior view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Human_eye_close_up%2C_anterior_view.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Real close-up photograph of a human eye. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/ears.webp",
+      "source_title": "Close up of man's ear.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Close_up_of_man%27s_ear.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Real close-up photograph of a human ear. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/nose.webp",
+      "source_title": "Nose (417653250).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nose_%28417653250%29.jpg",
+      "author": "See source page",
+      "license": "CC BY 2.0",
+      "license_url": "",
+      "modification": "Real close-up photograph showing a human nose in profile. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/mouth.webp",
+      "source_title": "Adult human mouth.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Adult_human_mouth.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Real close-up photograph of an adult human mouth. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/hands.webp",
+      "source_title": "Human-Hands-Front-Back.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Human-Hands-Front-Back.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 3.0",
+      "license_url": "",
+      "modification": "Real photograph of human hands, front and back. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/feet.webp",
+      "source_title": "Asia feet 3.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Asia_feet_3.jpg",
+      "author": "See source page",
+      "license": "CC0",
+      "license_url": "",
+      "modification": "Real photograph of human feet. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    },
+    {
+      "output": "lessons/body/assets/images/tummy.webp",
+      "source_title": "Alfie Williams in white t-shirt.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Alfie_Williams_in_white_t-shirt.jpg",
+      "author": "See source page",
+      "license": "CC BY-SA 4.0",
+      "license_url": "",
+      "modification": "Clothed torso crop from a real photograph used for the tummy card. Center cropped to 1200x900 and converted to WebP.",
+      "real_photo": true
+    }
+  ]
+}

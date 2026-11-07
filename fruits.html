@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#fff4e9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Little Fruits">
+  <meta name="description" content="认识常见水果，听英语发音，玩听音寻物。">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fruits.css">
+  <title>Little Fruits · 水果英语启蒙</title>
+</head>
+<body class="fruit-page">
+  <div class="shell">
+    <header class="header">
+      <a class="brand" href="./index.html" aria-label="返回 Treehouse 首页">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span></div>
+        <div><div class="brand-name">little fruits<span class="brand-dot">.</span></div><div class="brand-sub">看真实水果，听英语声音</div></div>
+      </a>
+      <nav class="mode-switch" aria-label="学习模式">
+        <button class="mode-button is-selected" id="exploreMode" type="button" aria-pressed="true"><span class="mode-icon" aria-hidden="true">◉</span><span>自由探索</span></button>
+        <button class="mode-button" id="gameMode" type="button" aria-pressed="false"><span class="mode-icon" aria-hidden="true">✦</span><span>听音寻果</span></button>
+      </nav>
+    </header>
+
+    <main id="main" class="main">
+      <section class="intro" aria-live="polite">
+        <div class="eyebrow"><span class="eyebrow-line"></span>水果 · FRUITS</div>
+        <div class="intro-row">
+          <div>
+            <h1 id="sectionTitle">发现甜甜的世界<span class="title-spark">✳</span></h1>
+            <p id="sectionHint">点一张水果卡，先看一看，再听英文名字。</p>
+          </div>
+          <div class="count-pill" id="countPill"><strong>8</strong><span>种常见水果</span></div>
+        </div>
+      </section>
+
+      <section class="play-area" aria-label="水果卡片">
+        <div class="game-prompt" id="gamePrompt" hidden>
+          <button id="repeatQuestion" class="repeat-button" type="button" aria-label="再听一遍问题">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3Zm12.2-1.4a6 6 0 0 1 0 8.8M18 5a9.5 9.5 0 0 1 0 14"/></svg>
+          </button>
+          <div><div class="prompt-overline">LISTEN &amp; FIND</div><div class="prompt-text" id="promptText">Where is the apple?</div></div>
+          <div class="question-counter" id="questionCounter">01 / ∞</div>
+        </div>
+        <div class="cards" id="cards"></div>
+      </section>
+      <p class="feedback" id="feedback" aria-live="polite"></p>
+    </main>
+
+    <footer class="footer"><span><span class="footer-heart">♥</span> 为小小探索家准备</span><span class="footer-actions"><a class="lesson-link" href="./food-lesson.html">Treehouse · Food Lesson</a><button class="credits-button" id="creditsButton" type="button">图片与声音说明</button></span></footer>
+  </div>
+
+  <div class="start-screen" id="startScreen" role="dialog" aria-modal="true" aria-labelledby="startTitle">
+    <div class="start-card">
+      <div class="start-badge">LITTLE FRUITS <span>✦</span> 水果篇</div>
+      <div class="start-photo"><img src="./fruit-assets/images/apple-photo.webp" alt="真实苹果照片"><span class="photo-label">REAL FRUIT · REAL WORDS</span></div>
+      <h2 id="startTitle">出发，认识<br><em>甜甜的水果。</em></h2>
+      <p>看真实照片，听英语发音，<br>再一起说出水果的英文名字。</p>
+      <button id="startButton" class="start-button" type="button">开始探索 <span aria-hidden="true">↗</span></button>
+      <div class="start-note">建议打开声音 · 轻点卡片即可发音</div>
+    </div>
+  </div>
+
+  <dialog class="credits-dialog" id="creditsDialog">
+    <div class="dialog-head"><div><div class="prompt-overline">ABOUT THIS LESSON</div><h2>素材说明</h2></div><button id="closeCredits" type="button" aria-label="关闭">×</button></div>
+    <p>水果图卡使用 ImageGen 生成的真实感水果照片，并裁切、压缩为项目内置 WebP 图片；英文句子和题目使用 Microsoft Edge Neural Voice（通过 edge-tts 生成）播放。页面不依赖运行时外部服务，适合在本地和离线环境使用。</p>
+  </dialog>
+
+  <script src="./fruits.js" defer></script>
+</body>
+</html>

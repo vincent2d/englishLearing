@@ -1,0 +1,14 @@
+.git
+.venv
+__pycache__
+*.pyc
+contact*.jpg
+*.md
+download_assets.py
+requirements.txt
+
+# Build-time generators and source-only assets are not needed by nginx.
+**/*.py
+**/*.ps1
+fruit-assets/images/*-photo.png
+fruit-assets/images/*.svg
